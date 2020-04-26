@@ -3,8 +3,9 @@ package uvsq;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable;
 
-public final class Personnel implements Groupe {
+public final class Personnel implements Groupe, Serializable {
 
     private final String nom;
     private final String prenom;

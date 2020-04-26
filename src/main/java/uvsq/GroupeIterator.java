@@ -1,9 +1,10 @@
 package uvsq;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class GroupeIterator<Groupe> implements Iterator<Groupe> {
+public class GroupeIterator<Groupe> implements Iterator<Groupe>, Serializable {
 
     private int index;
     private ArrayList<Groupe> liste;

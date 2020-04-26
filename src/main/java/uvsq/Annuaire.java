@@ -1,6 +1,8 @@
 package uvsq;
 
-public class Annuaire {
+import java.io.Serializable;
+
+public class Annuaire implements Serializable{
 
     GroupeIterator<Personnel> liste;
 
