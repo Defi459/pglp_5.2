@@ -43,6 +43,10 @@ public class GroupeIterator<Groupe> implements Iterator<Groupe>, Serializable {
         this.liste.remove(index);
     }
 
+    public int get_index(){
+        return this.index;
+    }
+
     public Groupe getElem(int index){
         return this.liste.get(index);
     }
